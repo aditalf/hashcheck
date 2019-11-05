@@ -1,16 +1,15 @@
 #! usr/bin/python2
 
 """
-__Author__ = Ci Ku ~ debby anggraini a.k.a xnver404
+__Author__ = Aditia Alfiansyah
 __Name__ = hasher
-__version__ = 3.0.1 (alpha)
+__version__ = 1
 __Code__ = python
-__Github__ = https://github.com/ciku370
-__Date__ = 21 - 4 - 2018
-__Team__ = Blackhole Security
+__Github__ = https://github.com/evilcodec
+__Team__ = Evil Code
 __License__ = GNU General Public License V.3
 
-(c) debby anggraini 2018
+(c) 
 
 """
 
@@ -109,7 +108,7 @@ def Update():
 
 		print (R+"["+W+"*"+R+"] "+R+"Curl Started ...\n"+W)
 
-		os.system("curl https://raw.githubusercontent.com/CiKu370/hasher/master/wordlist.txt -o wordlist.txt")
+		os.system("curl https://raw.githubusercontent.com/evilcodec/hashcheck/master/wordlist.txt -o wordlist.txt")
 
 		print (R+"\n["+W+"*"+R+"] "+G+"download Finish\n"+W)
 		sys.exit()
